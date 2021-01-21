@@ -1,0 +1,94 @@
+/*--------------------------Webpage body related styles -----------------*/
+body {
+  text-align: center;
+  background-color: #392853;
+}
+
+/*---------------------------level text----------------------------------*/
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+/*------------------------Color button container-------------------------*/
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+/*------------------Buttons styles and text styles------------------------*/
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 8px solid black;
+  border-radius: 20%;
+}
+
+.startstop-btn {
+ 
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  border: 5px solid black;
+  border-radius: 10%;
+  background-color: rgb(255, 102, 0);
+}
+
+.startstop-btn-txt{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #FEF2BF;
+  margin: 15%;
+}
+
+/*------------------ Style to applied after game is over------------------*/
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/*------------------------Colors style------------------------------------*/
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/*----------------Style to applied when button pressed----------------------*/
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/*-----------------------Footer style---------------------------------------*/
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+/*--------------------------------------------------------------------------*/
+
